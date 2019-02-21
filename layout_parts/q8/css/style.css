@@ -2,4 +2,298 @@
 
 /* 回答はここに書いてね */
 
+.s-btn{
+  color:white;
+  font-size:16px;
+  text-align:center;
+  display:inline-block;
+  line-height:26px;
+  border-radius:3px;
+  padding:0 15px;
+  margin-left:10px;
+}
+
+
+.btn:hover{
+  cursor:pointer;
+}
+
+.btn:last-child{
+  color:#222;
+}
+
+
+.error{
+  background-color:#ff4081 ;
+}
+
+.disabled{
+  background-color:#e5e5e5;
+}
+
+.disabled:hover{
+  cursor: default;
+}
+
+.shadow{
+  box-shadow:0 1px 6px rgba(0, 0, 0, .12);
+}
+.m-btn{
+  color:white;
+  font-size:20px;
+  text-align:center;
+  display:inline-block;
+  line-height:32px;
+  border-radius:5px;
+  padding:0 20px;
+  margin-left:10px;
+}
+
+.m-btn:last-child{
+  color:#222;
+}
+
+.l-btn{
+  color:white;
+  font-size:24px;
+  text-align:center;
+  display:inline-block;
+  line-height:38px;
+  border-radius:7px;
+  padding:0 25px;
+  margin-left:10px;
+}
+
+.l-btn:last-child{
+  color:#222;
+}
+
+.b-common{
+  background-color:#00bcd4;
+  margin-left:0;
+}
+
+.form{
+  width:700px;
+  margin:0 auto;
+  padding:20px;
+  background-color:#ecf1f2;
+}
+
+.form-title{
+  position:relative;
+  margin-bottom:20px;
+}
+
+.form-title::before{
+  position:absolute;
+  top:50%;
+  left:0;
+  width:100%;
+  height:1px;
+  background-color:#ccc;
+  content:"";
+}
+
+.title-text{
+  position:relative;
+  display:inline-block;
+  background-color:#ecf1f2;
+  padding-right:10px;
+  font-size:24px;
+  font-weight:bold;
+}
+
+
+.profile{
+  float:left;
+  width:300px;
+}
+
+.p-items{
+  margin-bottom:20px;
+  list-style:none;
+}
+
+.clearfix:after{
+  display:block;
+  content:"";
+  clear:both;
+}
+
+li{
+  margin-top:20px;
+}
+
+li:first-child{
+  margin-top:0;
+}
+
+.item-title{
+  float:left;
+  width:100px;
+  line-height:25px;
+  text-align:right;
+}
+
+.required{
+  color:red;
+}
+
+.item-content{
+  float:right;
+  width:180px;
+}
+
+.input{
+  width:100%;
+  padding:5px;
+  border-radius:3px;
+  background-color:#fff;
+  font-size:12px;
+  line-height:12px;
+  box-sizing:border-box;
+  border:none;
+}
+
+.radio:hover{
+  cursor:pointer;
+}
+
+.radio-btn{
+  display:none;
+}
+
+.radio-text{
+  position:relative;
+  display:inline-block;
+  padding:3px 3px 3px 20px;
+}
+
+.radio-text::before{
+  position:absolute;
+  top:50%;
+  left:0;
+  width:14px;
+  height:14px; 
+  margin-top:-8px;
+  background-color:#fff;
+  border:1px solid #ccc;
+  border-radius:50%;
+  content:'';
+}
+
+.radio-btn:checked+.radio-text::after{
+  position:absolute;
+  top:50%;
+  left:4px;
+  width:8px;
+  height:8px;
+  margin-top:-4px;
+  background-color:#00bcd4;
+  border-radius:50%;
+  content:'';
+}
+
+
+.home-select{
+  position:relative;
+}
+
+.select-ht{
+  font-size:12px;
+  background-color:#fff;
+  width:100%;
+  padding:5px;
+  border-radius:3px;
+  line-height:12px;
+  cursor:pointer;
+  box-sizing: border-box;
+  -webkit-appearance:none;
+  outline:none;
+}
+
+.home-select::after{
+  display:block;
+  position:absolute;
+  top:4px;
+  right:10px;
+  width:8px;
+  height:8px;
+  border-right:2px solid #e5e5e5;
+  border-bottom:2px solid #e5e5e5;
+  transform:rotate(45deg);
+  content:"";
+  pointer-events:none;
+}
+
+.checkbox{
+  text-align:right;
+}
+
+.checkbox-btn{
+  display:none;
+}
+
+.checkbox-text{
+  position:relative;
+  display:inline-block;
+  padding-left:24px;
+}
+
+.checkbox-text::before{
+  position:absolute;
+  top:50%;
+  left:0;
+  width:16px;
+  height:16px; 
+  margin-top:-9px;
+  background-color:#fff;
+  border:1px solid #ccc;
+  content:'';
+}
+
+.checkbox-btn:checked+.checkbox-text::after{
+  position:absolute;
+  top:50%;
+  left:6px;
+  margin-top:-14px;
+  width:8px;
+  height:16px; 
+  border-right:3px solid#00bcd4;
+  border-bottom:3px solid #00bcd4;
+  transform:rotate(45deg);
+  content:'';
+}
+
+.sending-btn{
+  text-align:right;
+}
+
+.send-btn{
+  padding:0 10px;
+  border-radius:5px;
+  background-color:#00bcd4;
+  color:#fff;
+  cursor:pointer;
+  font-size:16px;
+  line-height:26px;
+  width:auto;
+}
+
+.free-text{
+  float:right;
+  width:380px;
+}
+
+.text-box{
+  width:100%;
+  height:203px;
+  padding:10px;
+  border-radius:3px;
+  font-size:12px;
+  box-sizing:border-box;
+  resize:none;
+}
+
 /* 回答はここに書いてね */
