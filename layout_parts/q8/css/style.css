@@ -135,7 +135,7 @@ li:first-child{
   text-align:right;
 }
 
-.required{
+.is-required{
   color:red;
 }
 
@@ -154,6 +154,7 @@ li:first-child{
   box-sizing:border-box;
   border:none;
   outline:none;
+  appearance:none; 
 }
 
 .q8-input:focus{
