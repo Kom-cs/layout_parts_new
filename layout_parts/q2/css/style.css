@@ -9,15 +9,16 @@
 
 .q2-content{
   background-color:#eff3f4;
-  width:920px;
+  width:900px;
   padding:20px;
+  margin:0 auto;
 }
 
 .content-box{
   width:900px;
 }
 
-.img-1{
+.img-left{
   margin-right:20px;
   margin-bottom:10px;
   float:left;
@@ -29,7 +30,7 @@
   word-break:break-all;
 }
 
-.img-2{
+.img-right{
   float:right;
   margin-left:20px;
   margin-bottom:10px;

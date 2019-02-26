@@ -7,7 +7,7 @@
   clear:both;
 }
 
-table{
+.diet-table{
   width:100%;
   table-layout:fixed;
 }
@@ -28,15 +28,6 @@ td{
   line-height:22px;
   border:solid #dedede 1px;
   vertical-align:middle;
-}
-
-td:first-child{
-  background-color:#2244aa;
-  border:solid #dedede 1px;
-  color:white;
-  font-size:18px;
-  line-height:26px;
-  padding:10px 0;
 }
 
 tr:nth-child(even){

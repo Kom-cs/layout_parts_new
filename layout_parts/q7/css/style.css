@@ -20,63 +20,63 @@
 
 /*Q7-1*/
 
-.box1{
+.f-box{
   float:left;
   margin-left:50px;
 }
 
-.box1:first-child{
+.f-box:first-child{
   margin-left:0;
 }
 
 /* Q7-2 */
-.q7-inner2{
+.q7-t-inner{
   display:table;
 }
 
-.box2{
+.t-box{
   display:table-cell;
   padding-left:50px;
   vertical-align:middle;
 }
 
-.box2:first-child{
+.t-box:first-child{
   padding-left:0;
 }
 
 /* Q7-3 */
-.inner3{
+.ib-inner{
   font-size:0;
 }
 
-.box3{
+.ib-box{
   display:inline-block;
   margin-left:50px;
 }
 
-.box3:first-child{
+.ib-box:first-child{
   margin-left:0px;
 }
 
 /* Q7-4 */
-.inner4{  
+.flex-inner{  
   display:flex;
   justify-content:space-around;
   align-items:flex-end;
 }
 
-.box4{
+.flex-box{
   margin:0 auto;
 }
 
 /* Q7-5 */
-.inner5{
+.ibm-inner{
   vertical-align: top;
   font-size:0;
   display:flex;
 }
 
-.box5{
+.ibm-box{
   display:inline-block;
   font-size:16px;
   box-sizing:border-box;
