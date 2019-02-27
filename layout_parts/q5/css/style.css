@@ -16,12 +16,12 @@
   width:100px;
   text-align:center;
   line-height:100px;
-  top:40px;
-  left:200px;
   position:absolute;
 }
 
 .box1{
+  top:40px;
+  left:200px;
   background-color:#ffefd3;
   z-index:1;
 }

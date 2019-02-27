@@ -16,6 +16,7 @@
   width:225px;
   box-sizing:border-box;
   vertical-align:middle;
+  margin:0 auto;
 }
 
 /*Q7-1*/
@@ -65,9 +66,7 @@
   align-items:flex-end;
 }
 
-.flex-box{
-  margin:0 auto;
-}
+
 
 /* Q7-5 */
 .ibm-inner{
